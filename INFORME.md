@@ -1,10 +1,12 @@
-Materiales:
-· MÓDULO LECTOR RFID RC522
-· ESP32
-· TARJETA
-· LLAVERO
+# Práctica 6
 
-Presentación:
+## Materiales:
+- MÓDULO LECTOR RFID RC522
+- ESP32
+- TARJETA
+- LLAVERO
+
+## Presentación:
 En esta práctica hemos usado los buses SPI, concretamente en esta hemos pasado un tag (una tarjeta) que tiene la capacidad de enviar información al lector.
 El SPI  consta de mínimo 3 líneas: MOSI: comunicació maestro-esclavo, MISO:comunicación esclavo-maestro, SCK:señal de reloj
 Añade una línea adicional por cada esclavo, aunque estas se pueden poner en cascada.
@@ -12,7 +14,7 @@ Aquí el esclavo sí puede comenzar la comunicación siempre que el maestro lo i
 Utilizaremos la conexión por defecto:
 HSPI	GPIO 13	GPIO 12	GPIO 14	GPIO 15
 
-Explicación del código:
+## Explicación del código:
 
 ```
 #include<Arduino.h>
@@ -88,4 +90,4 @@ void printDec(byte *buffer, byte bufferSize) {
 }
 
 ```
-En el video añadido se puede ver la salida:
+En el vídeo añadido se puede ver la salida con claridad.
