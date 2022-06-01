@@ -12,6 +12,8 @@ Aquí el esclavo sí puede comenzar la comunicación siempre que el maestro lo i
 Utilizaremos la conexión por defecto:
 HSPI	GPIO 13	GPIO 12	GPIO 14	GPIO 15
 
+Explicación del código:
+
 ```
 #include<Arduino.h>
 //librerias
