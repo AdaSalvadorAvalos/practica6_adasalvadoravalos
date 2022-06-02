@@ -6,7 +6,7 @@
 - TARJETA
 - LLAVERO
 
-## Presentación:
+## Presentación (con comentarios que explican el funcionamiento línea a línea):
 En esta práctica hemos usado los buses SPI, concretamente en esta hemos pasado un tag (una tarjeta) que tiene la capacidad de enviar información al lector.
 El SPI  consta de mínimo 3 líneas: MOSI: comunicació maestro-esclavo, MISO:comunicación esclavo-maestro, SCK:señal de reloj.
 Añade una línea adicional por cada esclavo, aunque estas se pueden poner en cascada.
